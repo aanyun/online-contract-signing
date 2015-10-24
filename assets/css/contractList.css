@@ -1,0 +1,92 @@
+.contractList2{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contractList2 li{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: left;
+  height: 55px;
+  margin-top: 1px;
+  background-color: #F3DEB5;
+  border-left: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  border-top: 1px solid #c1c1c1;
+  border-right: 1px solid #c1c1c1;
+
+    color: #000; /* text color + color overlay */
+  font-size: 1em;
+  font-weight: bold;
+  padding: .6em 2.4em;
+  text-decoration: none;
+  text-shadow: 0 0.065em 0 rgba(255,255,255,.75);
+     
+  background-color: #cdcdcd; /* layer fill content */
+  -moz-box-shadow: 0 .125em 0 #b0b0b0, inset 0 1.375em 0 rgba(255,255,255,.5) 0 .25em .125em rgba(0,0,0,.1); /* drop shadow and inner shadow */
+  -webkit-box-shadow: 0 .125em 0 #b0b0b0, inset 0 1.375em 0 rgba(255,255,255,.5) 0 .25em .125em rgba(0,0,0,.1) 0 .25em .125em rgba(0,0,0,.1); /* drop shadow and inner shadow */
+  box-shadow: 0 .125em 0 #b0b0b0, inset 0 1.375em 0 rgba(255,255,255,.5), 0 .25em .125em rgba(0,0,0,.1); /* drop shadow and inner shadow */
+  background-image: -moz-linear-gradient(bottom, #cdcdcd 0%, #f6f6f6 100%); /* gradient overlay */
+  background-image: -o-linear-gradient(bottom, #cdcdcd 0%, #f6f6f6 100%); /* gradient overlay */
+  background-image: -webkit-linear-gradient(bottom, #cdcdcd 0%, #f6f6f6 100%); /* gradient overlay */
+  background-image: linear-gradient(bottom, #cdcdcd 0%, #f6f6f6 100%); /* gradient overlay */
+
+  -webkit-transition: all .15s ease-out;
+     -moz-transition: all .15s ease-out;
+      -ms-transition: all .15s ease-out;
+       -o-transition: all .15s ease-out;
+          transition: all .15s ease-out;
+  
+  padding-left: 25px;
+  padding-right: 25px;
+    margin-bottom: 18.5px;
+}
+
+.contractList2 li:hover{
+  background-color:#F7F7D2;
+  cursor:pointer;
+}
+
+
+.contractList2 li.active{
+  border-left: 1px solid #E5AF00!important;
+  border-bottom: 1px solid #E5AF00!important;
+  border-top: 1px solid #E5AF00!important;
+  border-right: 1px solid #E5AF00!important;
+
+    color: #000; /* text color + color overlay */
+  font-size: 1em;
+  font-weight: bold;
+  padding: .6em 2.4em;
+  text-decoration: none;
+  text-shadow: 0 0.065em 0 rgba(255,255,255,.75);
+     
+  -moz-border-radius: .3125em;   
+  -webkit-border-radius: .3125em;   
+  border-radius: .3125em; /* border radius */     
+  background-color: #f1c243!important; /* layer fill content */   
+  -moz-box-shadow: 0 .125em 0 #c8a036, inset 0 1.375em 0 rgba(255,255,255,.3) 0 .25em .125em rgba(0,0,0,.1)!important; /* drop shadow and inner shadow */   
+  -webkit-box-shadow: 0 .125em 0 #c8a036, inset 0 1.375em 0 rgba(255,255,255,.3) 0 .25em .125em rgba(0,0,0,.1) 0 .25em .125em rgba(0,0,0,.1)!important; /* drop shadow and inner shadow */   
+  box-shadow: 0 .125em 0 #c8a036, inset 0 1.375em 0 rgba(255,255,255,.3), 0 .25em .125em rgba(0,0,0,.1)!important; /* drop shadow and inner shadow */   
+  background-image: -moz-linear-gradient(bottom, #F3DEB5 0%, #ffd564 100%)!important; /* gradient overlay */   
+  background-image: -o-linear-gradient(bottom, #F3DEB5 0%, #ffd564 100%)!important; /* gradient overlay */   
+  background-image: -webkit-linear-gradient(bottom, #F3DEB5 0%, #ffd564 100%)!important; /* gradient overlay */   
+  background-image: linear-gradient(bottom, #F3DEB5 0%, #ffd564 100%)!important; /* gradient overlay */     
+  -webkit-transition: all .15s ease-out;      
+  -moz-transition: all .15s ease-out;       
+  -ms-transition: all .15s ease-out;        
+  -o-transition: all .15s ease-out;           
+  transition: all .15s ease-out;
+  
+}
+
+.contractList2 li .glyphicon 
+{
+  background-color:#a6a6a6;color:#fff;padding:5px;
+}
+
+.contractList2 li.active .glyphicon 
+{
+  background-color:#E5AF00!important;color:#fff;padding:5px;
+}

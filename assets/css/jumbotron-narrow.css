@@ -1,0 +1,504 @@
+/* Space out content a bit */
+body {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.cus-btn a{
+  color:white;
+}
+.cus-btn{
+  color:white;
+  padding:15px;
+
+}
+.cus-btn:hover{
+cursor: pointer;
+}
+
+.cus-btn.bg-success{
+  background-color: #5cb85c;
+}
+.cus-btn.bg-success:hover{
+  background-color: #449d44;
+}
+
+.cus-btn.bg-warning{
+  background-color: #f0ad4e;
+}
+.cus-btn.bg-warning:hover{
+  background-color: #EEA236;
+}
+.panel-collapse{
+  background-color: white;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+ul.checkout-bar a {
+  font-size: 13px;
+  font-weight: 300;
+  text-decoration: none;
+}
+ul.checkout-bar li{
+  font-size: 13px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+ul.checkout-bar li:not(.active) a{
+  color:grey;
+}
+#accordion .panel:hover{
+cursor: pointer;
+background-color: #FAFAFA;
+}
+.contract-panel{
+/*  padding:20px;*/
+}
+.contract-body {
+  padding-left:20px;
+  padding-right:20px;
+}
+.approved .glyphicon {
+  background-color: #238360!important;
+}
+
+.TaskOne {
+  background: url('../../assets/img/task1a.png') no-repeat;
+}
+.TaskOne.active {
+  background: url('../../assets/img/task1a-active.png') no-repeat;
+}
+/*.stepOneDone .glyphicon {
+  background-color: #7c3e72!important;
+}*/
+.TaskTwo{
+  background: url('../../assets/img/task2b.png') no-repeat;
+
+}
+.TaskTwo.active{
+  background: url('../../assets/img/task2b-active.png') no-repeat;
+
+}
+.TaskOne {
+  width: 101%;
+}
+.TaskTwo {
+  margin-left:46px;
+  font-weight: normal!important;
+  padding-right:50px;
+  font-size: 11px!important;
+}
+.stepOneDone.TaskOne:not(.StepTwoDone){
+  background: url('../../assets/img/task1b.png') no-repeat;
+  margin-left: 50px;
+  font-size: 11px;
+  font-weight: normal!important;
+}
+.stepOneDone.active.TaskOne:not(.StepTwoDone){
+  background: url('../../assets/img/task1b-active.png') no-repeat;
+  margin-left: 50px;
+  font-size: 11px;
+  font-weight: normal!important;
+}
+.stepOneDone.TaskOne:not(.StepTwoDone) div:first-child{
+  margin-right: 70px;
+}
+
+.stepOneDone.TaskOne:not(.StepTwoDone) div:nth-child(2){
+  margin-right: 50px;
+}
+
+.stepOneDone.TaskTwo{
+  background: url('../../assets/img/task2a.png') no-repeat;
+  width:100%;
+  margin-left: 0px;
+  font-weight: bold!important;
+  font-size: 13px!important;
+}
+.stepOneDone.TaskTwo.active{
+  background: url('../../assets/img/task2a-active.png') no-repeat;
+  width:100%;
+  margin-left: 0px;
+  font-weight: bold!important;
+  font-size: 13px!important;
+}
+.TaskTwo div:first-child{
+  margin-right: 20px;
+}
+.stepOneDone.StepTwoDone {
+  width:100%!important;
+}
+
+.stepOneDone.StepTwoDone.TaskOne div:first-child {
+  margin-right: 30px;
+}
+
+/*.StepTwoDone .glyphicon {
+  background-color: #6260ab!important;
+}*/
+.btn-primary {
+  color: #fff!important;
+  background-color:#ac0000!important;
+  border-color:#ac0000!important;
+}
+
+.inst-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align:center;
+}
+
+.inst-title small {
+  font-weight: normal;
+  font-size:.75em;
+}
+
+.taskOneDiv {
+  background: url('../../assets/img/gr1.jpg') repeat-y;
+  width:100px;
+  height:150px;
+  position: absolute;
+  left: 210px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  z-index: -1;
+  border-radius: 5px;
+}
+.taskTwoDiv {  
+  background: url('../../assets/img/gr2.jpg') repeat-y;
+  width:100px;
+  height:413px;
+  position: absolute;
+  left: 210px;
+  top:160px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  z-index: -1;
+  border-radius: 5px;
+}
+/*.placeholder {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  background:white;
+  float: left;
+  margin-right: 10px;
+}*/
+
+.purple {
+  background-color: #b37fac;
+  padding:12px;
+}
+
+.blue {
+  background-color: #9799ca;
+  padding:12px;
+  margin-bottom: 20px;
+}
+
+.steps1, .steps2 {
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+.steps1 table td:first-child,
+.steps2 table td:first-child {
+width:7%;
+font-weight:bold;
+vertical-align: top;
+}
+
+.steps1 table td:last-child,
+.steps2 table td:last-child {
+  width: 93%;
+  font-size:1em;
+}
+
+
+
+li.b1, li.b2 {
+   width: auto;
+   padding: 0;
+}
+
+li.a1:before {
+   content: "Part A)";
+   color:#8a5d92;
+   font-weight:bold;
+}
+
+li.a2:before {
+   content: "Part B)";
+   color:#8a5d92;
+   font-weight:bold;
+}
+
+li.b1:before {
+   content: "Part A)";
+   color:#635e89;
+   font-weight:bold;
+}
+
+li.b2:before {
+   content: "Part B)";
+   color:#635e89;
+   font-weight:bold;
+}
+
+li.c1:before {
+   content: "Part A)";
+   color:#0092d6;
+   font-weight:bold;
+}
+
+li.c2:before {
+   content: "Part B)";
+   color:#0092d6;
+   font-weight:bold;
+}
+
+.inst-title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.inst-title small {
+  font-weight: normal;
+  font-size:.8em;
+}
+
+/*.placeholder {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  background:white;
+  float: left;
+  margin-right: 10px;
+}*/
+
+.purple {
+  background-color: #b37fac;
+  padding:12px;
+}
+
+.blue {
+  background-color: #9799ca;
+  padding:12px;
+  margin-bottom: 20px;
+}
+
+.steps1, .steps2 {
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+.steps1 table td:first-child,
+.steps2 table td:first-child {
+width:7%;
+font-weight:bold;
+vertical-align: top;
+}
+
+.steps1 table td:last-child,
+.steps2 table td:last-child {
+  width: 93%;
+  font-size:1em;
+}
+
+.bg1 {
+  width: 700px;
+  height:155px;
+  background: url('../../assets/img/task1bg.png');
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.bg2 {
+  width: 700px;
+  height:155px;
+  background: url('../../assets/img/task2bg.png');
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.bg3 {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.innerText {
+  width: 78%;
+  margin-left: 19%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.05em;
+}
+
+.innerText2 {
+  width: 75%;
+  margin-left: 19%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.05em;
+}
+
+.innerText hr, .innerText2 hr {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-top: 2px solid #545454;
+  width: 95%;
+}
+
+.innerText ul, .innerText2 ul {
+  list-style-type: none;
+  padding:0;
+  list-style-position:inside;
+  padding: 3px 0 10px 39px;
+  text-indent: -3.5em;
+}
+
+.note {
+  background:url('../../assets/img/note3.png') no-repeat;
+  margin: 0 auto;
+  width:735px;
+  height:auto;
+  padding-bottom: 5px;
+}
+
+.note2 {
+  background:url('../../assets/img/note4.png') no-repeat;
+  margin: 0 auto;
+  width:735px;
+  height:auto;
+}
+
+.note p {
+  margin-top: 18px;
+  margin-bottom: 45px;
+  font-size: .85em;
+  padding-top: 26px;
+  padding-left: 115px;
+  padding-right: 45px;
+}
+
+.note2 p {
+  font-size:.85em;
+  padding-left:115px;
+  padding-right:45px;
+  padding-top:24px;
+  padding-bottom:32px;
+}
+
+.sign1 {
+  background: url('../../assets/img/sign1bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+.sign2 {
+  background: url('../../assets/img/sign2bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+.sign-title {
+  padding-left: 100px;
+  margin-top: -5px;
+  color:#fff;
+  font-family: 'Open Sans';
+  font-size:.9em;
+  text-transform: uppercase;
+}
+
+.s {
+  padding-top:35px;
+  padding-bottom:35px;
+  padding-left:40px;
+  padding-right:35px;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif !important;
+}
+
+a:hover {
+text-decoration: none;
+}
